@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Slab:100,100i,300,300i,400,400i,600,600i,700,700i&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Fjalla+One&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Playfair+Display:400,400i,700,700i,900,900i&display=swap');
+body{
+font-family: 'Josefin Slab', serif;
+  font-style: normal;
+  font-weight: 300;
+  font-display: swap;
+  font-size:16px;
+  line-height:2em;
+}
+.fontx1{
+font-family: 'Josefin Slab', serif;
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  font-size:20px;
+}
+.fontx2{
+font-family: 'Josefin Slab', serif;
+  font-style: italic;
+  font-weight: 300;
+  font-display: swap;
+  
+}
+@font-face {
+font-family: 'Zapfino';
+font-style: normal;
+font-weight: normal;
+src: local('Zapfino'), url('Zapfino.woff') format('woff');
+}
+h1{
+font-family:'Zapfino';font-weight:normal;font-size:30px;
+color:#6287A2;
+
+
+}
+.section1{
+font-family:'Zapfino';font-weight:normal;font-size:30px;
+color:#6287A2;
+margin-top:3em;
+margin-bottom:3em;
+}
+.section7{
+color:navy;
+font-family: 'Josefin Slab', serif;
+  font-style: normal;
+  font-weight: 200;
+  font-display: swap;
+  font-size:14px;
+
+}
+.section2{
+
+
+
+background: url(../bridal2.jpg) no-repeat center center; 
+ 
+   background-size: cover; 
+
+   
+
+color:#80C8BC;
+
+padding:30px;
+
+}
+.section4a{ 
+
+background:white;
+   
+
+color:#80C8BC;
+} 
+.section4{ 
+
+color:white;
+   
+
+background:#80C8BC;
+} 
+
+.section5{
+
+
+
+background:white;
+   
+
+color:#80C8BC;
+} 
+
+.section9{
+background: url(../bridal2.jpg) no-repeat center center; 
+ height:800px;
+   background-size: cover; 
+} 
+
+    .triangle-up {
+background: url(../bridal2.jpg) no-repeat center center; 
+ 
+   background-size: cover; 
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-bottom: 100px solid green;}
+
+    .triangle-down {
+      width: 0;
+      height: 0;
+      border-left: 50px solid transparent;
+      border-right: 50px solid transparent;
+      border-top: 100px solid red;
+    }
+
+.polygon1 {
+  -webkit-clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+  clip-path: polygon(50% 0%, 0% 100%, 100% 100%);
+}
+ .testa{
+ margin-top:3em;margin-bottom:3em;color:#80C8BC;
+ }
